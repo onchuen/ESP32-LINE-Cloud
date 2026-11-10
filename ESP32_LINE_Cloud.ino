@@ -14,14 +14,14 @@
 #include <ArduinoJson.h>
 
 // ---------------- WIFI ----------------
-const char* WIFI_SSID = "ใส่ชื่อ WiFi";
-const char* WIFI_PASSWORD = "ใส่รหัส WiFi";
+const char* WIFI_SSID = "iPhone";
+const char* WIFI_PASSWORD = "11111111";
 
 // ใส่ URL ของ Render หลัง Deploy เช่น https://esp32-line-cloud.onrender.com
 const char* CLOUD_BASE_URL = "https://YOUR-SERVICE.onrender.com";
 
 // ต้องตรงกับ DEVICE_KEY ที่ตั้งใน Render Environment
-const char* DEVICE_KEY = "ตั้งรหัสอุปกรณ์ที่คาดเดายาก";
+const char* DEVICE_KEY = "1123";
 
 // ---------------- PINS ----------------
 const int sensorPin = 36;
